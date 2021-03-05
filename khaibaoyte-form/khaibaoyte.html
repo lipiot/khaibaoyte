@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<form>
+		Cửa Khẩu
+		<select class="select-one">
+			<option>-Chọn-</option>
+			<option>A Pa Chải</option>
+			<option>A Đớt</option>
+			<option>Bu Prăng</option>
+			<option>Buôn Đôn</option>
+		</select><br>
+		<span>Họ tên (ghi chữ IN HOA)(*)</span><input type="text" name="name"><br>
+		<span>Năm Sinh</span><select class="select-two">
+			<option>1990</option>
+			<option>1991</option>
+			<option>1992</option>
+			<option>1993</option>
+			<option>1994</option>
+			<option>...</option>
+		</select>
+		<span>Giới tính(*)</span><select>
+			<option>-Chọn-</option>
+			<option>Nam</option>
+			<option>Nữ</option>
+			<option>Khác</option>
+		</select>
+		<span>Quốc tịch (*)</span><select>
+			<option>Việt Nam</option>
+			<option>Trung Quốc</option>
+			<option>Lào</option>
+		</select><br>
+		<span>Số hộ chiếu hoặc số CMND hoặc giấy thông hành hợp pháp khác (*)</span><input type="text" name=""><br>
+		<span>Thông tin đi lại (*) </span>Tàu bay<input type="checkbox" name="">Tàu thuyền<input type="checkbox" name="">
+		Ô tô<input type="checkbox" name=""><span>Khác(Ghi rõ) : </span><br>
+		<textarea id="textarea"></textarea>
+		<table class="table1">
+			<tbody>
+				<tr>
+					<td>Số hiệu phương tiện</td>
+					<td><input type="text" name="sohieu-pt"></td>
+					<td>Số ghế</td>
+					<td><input type="text" name="soghe"></td>
+				</tr>
+				<tr>
+					<td>Ngày khởi hành</td>
+					<td>
+						<select>
+							<option>-Ngày</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>12</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+						</select>
+						<select>
+							<option>-Tháng-</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+						</select>
+						<select>
+							<option>-Năm-</option>
+							<option>2020</option>
+							<option>2021</option>
+							<option>2022</option>
+						</select>
+					</td>
+					<td>Ngày nhập cảnh(*) </td>
+					<td>
+						<select>
+							<option>-Ngày</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>12</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+						</select>
+						<select>
+							<option>-Tháng-</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+						</select>
+						<select>
+							<option>-Năm-</option>
+							<option>2020</option>
+							<option>2021</option>
+							<option>2022</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">Địa điểm khởi hành(tỉnh/quốc gia)</td>
+				</tr>
+				<tr>
+					<td>Quốc gia, vùng lãnh thổ (*)</td>
+					<td>
+						<select class="select-table1">
+							<option>-Chọn-</option>
+							<option>Mỹ</option>
+							<option>Nhật bản</option>
+							<option>Nga</option>
+							<option>Việt Nam</option>
+						</select>
+					</td>
+					<td>Tỉnh(*)</td>
+					<td><input type="text" name="city-from"></td>
+				</tr>
+				<tr>
+					<td colspan="4">Địa điểm nơi đến (tỉnh/quốc gia)</td>
+				</tr>
+				<tr>
+					<td>Quốc gia/ Vùng lãnh thổ(*)</td>
+					<td>
+						<select class="select-table1">
+							<option>Ý</option>
+							<option>Mỹ</option>
+							<option>Nhật bản</option>
+							<option>Nga</option>
+							<option selected>Việt Nam</option>
+						</select>
+					</td>
+					<td>Tỉnh(*)</td>
+					<td>
+						<select class="select-table1">
+							<option>-Chọn-</option>
+							<option>TP.Hà Nội</option>
+							<option>TP.Hồ Chí Minh</option>
+							<option>Đà Nẵng</option>
+							<option>Huế</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">Trong vòng 14 ngày qua Anh/Chị có đến quốc gia/vùng lãnh thổ nào ? (*)</td>
+				</tr>
+			</tbody>
+		</table>
+		<textarea></textarea>
+		<p>Nơi lưu trú sau cách ly tập trung</p>
+		<table class="table2">
+			<tbody>
+				<tr>
+					<td>Tỉnh thành (*) 
+						<select>
+							<option>-Chọn-</option>
+							<option>TP.Hà Nội</option>
+							<option>TP.Hồ Chí Minh</option>
+							<option>Đà Nẵng</option>
+							<option>Huế</option>
+						</select>
+					</td>
+					<td>Quận/huyện
+						<select>
+							<option>-Chọn-</option>
+						</select>
+					</td>
+					<td>Phường/xã(*)
+						<select>
+							<option>-Chọn-</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">Địa chỉ lưu trú sau cách ly </td>
+				</tr>
+				<tr>
+					<td colspan="3"><input type="text" name=""></td>
+				</tr>
+				<tr>
+					<td colspan="3">Địa chỉ liên lạc tại Việt Nam</td>
+				</tr>
+				<tr>
+					<td>Tỉnh thành (*) 
+						<select>
+							<option>-Chọn-</option>
+							<option>TP.Hà Nội</option>
+							<option>TP.Hồ Chí Minh</option>
+							<option>Đà Nẵng</option>
+							<option>Huế</option>
+						</select>
+					</td>
+					<td>Quận/huyện
+						<select>
+							<option>-Chọn-</option>
+						</select>
+					</td>
+					<td>Phường/xã(*)
+						<select>
+							<option>-Chọn-</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">Địa chỉ nơi ở tại Việt Nam (*)</td>
+				</tr>
+				<tr>
+					<td colspan="3"><input type="text" name=""></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<span>Số điện thoại bạn sẽ sử dụng tại Việt Nam(Là số roaming hoặc số ở Việt Nam)</span>
+					</td>
+				</tr>
+				<tr>
+					<td>Điện Thoại (*) <input class="input-table2" type="tel" name="tel"></td>
+					<td>Email <input class="input-table2" type="Email" name="email"></td>
+				</tr>
+			</tbody>
+		</table>
+		<table id="table3" border="1">
+			<caption>Trong vòng 14 ngày (tính đến thời điểm làm thủ tục xuất cảnh, nhập cảnh, quá cảnh) Anh/Chị có thấy xuất hiện dấu hiệu nào sau đây không? (*)</caption>
+			<tbody>
+				<tr>
+					<td>Triệu Chứng</td>
+					<td>Có</td>
+					<td>Không</td>
+					<td>Triệu Chứng</td>
+					<td>Có</td>
+					<td>Không</td>
+				</tr>
+				<tr>
+					<td>Sốt (*)</td>
+					<td><input type="radio" name="sot"></td>
+					<td><input type="radio" name="sot"></td>
+					<td>Nôn/Buồn nôn (*)</td>
+					<td><input type="radio" name="non"></td>
+					<td><input type="radio" name="non"></td>
+				</tr>
+				<tr>
+					<td>Ho (*)</td>
+					<td><input type="radio" name="ho"></td>
+					<td><input type="radio" name="ho"></td>
+					<td>Tiêu chảy (*)</td>
+					<td><input type="radio" name="tieuchay"></td>
+					<td><input type="radio" name="tieuchay"></td>
+				</tr>
+				<tr>
+					<td>Khó thở (*)</td>
+					<td><input type="radio" name="khotho"></td>
+					<td><input type="radio" name="khotho"></td>
+					<td>Xuất huyết ngoài da (*)</td>
+					<td><input type="radio" name="xuathuyet"></td>
+					<td><input type="radio" name="xuathuyet"></td>
+				</tr>
+				<tr>
+					<td>Đau họng (*)</td>
+					<td><input type="radio" name="dauhong"></td>
+					<td><input type="radio" name="dauhong"></td>
+					<td>Nổi ban ngoài da (*)</td>
+					<td><input type="radio" name="noiban"></td>
+					<td><input type="radio" name="noiban"></td>
+				</tr>
+			</tbody>
+		</table><br><br>
+		<p>Danh sách vắc-xin hoặc sinh phẩm được sử dụng</p>
+		<input type="text" name="vac-xin" class="input-vacxin"><br>
+		<table class="table4" border="1">
+			<caption style="text-align: left;">Lịch sử phơi nhiễm: Trong vòng 14 ngày qua, Anh/Chị có (*)</caption>
+			<tbody>
+				<tr>
+					<td></td>
+					<td>Có</td>
+					<td>Không</td>
+				</tr>
+				<tr>
+					<td>Đến trang trại chăn nuôi / chợ buôn bán động vật sống / cơ sở giết mổ động vật / tiếp xúc động vật (*)</td>
+					<td><input type="radio" name=""></td>
+					<td><input type="radio" name=""></td>
+				</tr>
+				<tr>
+					<td>Tiếp xúc gần (<2m) với người mắc bệnh viêm đường hô hấp do nCoV (*)</td>
+					<td><input type="radio" name=""></td>
+					<td><input type="radio" name=""></td>
+				</tr>
+			</tbody>
+		</table>
+		<p>Chọn cơ sở cách ly</p>
+		<input type="radio" name="cachly"><label>Cơ sở cách ly tập trung</label><br>
+		<input type="radio" name="cachly"><label>Cơ sở cách ly tự chọn</label><br>
+		<input type="radio" name="cachly"><label>Khác</label><br>
+		<input type="submit" name="submit" value = "GỬI TỜ KHAI">
+	</form>
+</body>
+</html>
